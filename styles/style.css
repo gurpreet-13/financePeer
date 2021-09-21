@@ -1,0 +1,120 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+/*Navigation bar*/
+.navigationBar {
+  width: 100%;
+  background-color: #B1E693;
+  position: fixed;
+  top: 0;
+
+}
+
+.navigationBar a {
+  float: left;
+  padding: 12px;
+  color: #00A19D;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: 'Signika', sans-serif;
+    font-weight: bolder;
+}
+/* .navigationBar a:hover {
+  background-color: #aee1e1;
+  color: black;
+} */
+
+.indexHeading{
+  text-align: center;
+  top: 500px;
+}
+
+.registerForm{
+  text-align: center;
+  margin: 100px;
+}
+
+.indexTable{
+  text-align: center;
+}
+
+.indexInput{
+  margin: 10px;
+  padding: 5px;
+border-radius: 6px;
+font-size: 15px;
+}
+
+.indexLabel{
+  font-size: 35px;
+  padding: 6px;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.submitBtn{
+  margin: 20px;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 25px;
+  text-align: center;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.userPara{
+  font-size: 20px;
+  padding: 6px;
+}
+
+.userLogin{
+  text-decoration: underline;
+  color: black;
+  font-size: 25px;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+#user_json {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 7px;
+  border-radius: 5px;
+  width: 100%;
+}
+
+#user_json td, #user_json th {
+  border: 1px solid black;
+padding: 6px;
+  text-align: center;
+  width: 30px;
+}
+
+
+#user_json th {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #38A3A5;
+  color: white;
+}
+
+.headingText{
+  font-family: 'Lobster', cursive;
+}
+
+
+
+/* Footer */
+.footerDiv{
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #B1E693;
+  text-align: center;
+}
+
+.footerHeading, .footerPara{
+  color: #00A19D;
+  text-align: center;
+  font-family: 'Signika', sans-serif;
+  font-size: 20px;
+  padding: 1px;
+  font-weight: bolder;
+}
